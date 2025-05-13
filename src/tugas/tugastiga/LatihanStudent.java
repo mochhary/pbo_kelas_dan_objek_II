@@ -31,6 +31,7 @@ public class LatihanStudent {
         y.setNrp("02");
 
         System.out.println("x.nrp: " + x.getNrp()); 
+        System.out.println("y.nrp: " + y.getNrp());
 
         Student z = new Student();
         z.setNrp("03");
@@ -39,6 +40,7 @@ public class LatihanStudent {
 
         System.out.println("x.nrp: " + x.getNrp()); 
         System.out.println("y.nrp: " + y.getNrp()); 
+        System.out.println("z.nrp: " + z.getNrp());
     }
 }
 

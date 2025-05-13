@@ -38,7 +38,7 @@ public class Main5 {
 
         n1.setNext(n2);
 
-        System.out.println("Node 1: " + n1.getValue());
-        System.out.println("Node 2 via Node 1: " + n1.getNext().getValue());
+        System.out.println("Node 1 : " + n1.getValue());
+        System.out.println("Node 2 via Node 1 : " + n1.getNext().getValue());
     }
 }
